@@ -48,6 +48,9 @@
 }
 
 .home {
-  background-color: cornsilk;
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.home:hover{
+  box-shadow: #333;
 }
