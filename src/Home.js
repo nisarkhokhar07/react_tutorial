@@ -1,17 +1,31 @@
 import { useState } from "react";
+import blogList from "./blogList";
 
 const Home = () => {
-  const [name, setName] = useState("Nisar Khokhar");
-
-  const handleClick = () => {
-    setName("Umar Atiq")
-  };
+  const [blogs, setBlogs] = useState([
+    {
+      title: "How to build a website",
+      author: "Nisar",
+      body: "loremipsum34",
+      id: 1,
+    },
+    {
+      title: "How to build a mobile application",
+      author: "Umar shah",
+      body: "loremipsum34",
+      id: 2,
+    },
+    {
+      title: "How to clone a remote repo to local repo",
+      author: "Umar atiq",
+      body: "loremipsum34",
+      id: 3,
+    },
+  ]);
 
   return (
     <div className="home">
-      <h1>My Home Page</h1>
-      <p>{name} is human.</p>
-      <p onMouseOver={handleClick}>My first Button</p>
+      <blogList blogs={blogs} />
     </div>
   );
 };
