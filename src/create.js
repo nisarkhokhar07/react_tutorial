@@ -23,7 +23,7 @@ const Create = () => {
         console.log(blog);
         setisPending(false);
         // history.push('/home');
-        history('/home');
+        history('/');
     })
   }
 

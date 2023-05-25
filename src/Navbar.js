@@ -8,7 +8,7 @@ const Navbar = () => {
       </Link>
 
       <div className="links">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/create" style={{
           color: 'white',
           backgroundColor: '#f1356d',
