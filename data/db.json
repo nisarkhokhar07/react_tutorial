@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "gedvw",
+      "body": "kvaydvluyv",
+      "author": "mario",
+      "id": 3
+    },
+    {
+      "title": "How to build an SPA",
+      "body": "Learn JavaScript and REACT.",
+      "author": "nisar",
+      "id": 4
+    }
+  ]
+}
