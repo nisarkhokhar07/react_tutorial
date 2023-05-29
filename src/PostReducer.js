@@ -1,11 +1,11 @@
 export const INITIAL_STATE = {
     title: "",
     body: "",
-    author: "mario",
+    author: "",
     isPending: false,
   };
 
-  export const postReducer = (state, action) => {
+  export const postReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
       case "fetch-success":
         return {
